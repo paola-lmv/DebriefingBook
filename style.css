@@ -1,7 +1,7 @@
 
 /* container border  */
 div.solid {
-    margin:  70px 7% 7% ;
+    margin:  70px 5% 5% ;
     border-style: solid; 
     border-color:#cac9c9; 
     border-width: 2px;
@@ -85,6 +85,9 @@ i{
 #description{
     text-align: center;
 }
+
+
+
 /* -------------each page ---------------- */
 /* presentation */
 
@@ -166,9 +169,6 @@ i{
     margin:  60% 0% 0% 0% 0%  ;
 }
 .responsive-image {
-    max-height: 400px;    
-    width: 50%;        /* L'image prend 50% de la largeur du conteneur */
-    max-width: 300px;  /* Taille maximale de l'image */
     height: auto;      /* Garde l'aspect ratio de l'image */
     display: block;    /* Affiche l'image comme un bloc */
     margin: 10px 0;    /* Ajoute un peu d'espace autour de l'image */
@@ -179,20 +179,19 @@ i{
     float: left;          /* L'image flottera à gauche */
     margin-right: 20px;   /* Marge à droite pour séparer l'image du texte */
     margin-bottom: 10px;  /* Marge en bas pour séparer le texte qui suit l'image */
-    width: 50%;        /* L'image prend 50% de la largeur du conteneur */
-    max-width: 300px;  /* Taille maximale de l'image */
-    max-height: 400px;
-    height: auto;      /* Garde l'aspect ratio de l'image */
     }
 .responsive-right {
-    max-height: 400px;
     float: right;          /* L'image flottera à gauche */
     margin-right: 20px;   /* Marge à droite pour séparer l'image du texte */
     margin-bottom: 10px;  /* Marge en bas pour séparer le texte qui suit l'image */
-    width: 50%;        /* L'image prend 50% de la largeur du conteneur */
-    max-width: 300px;  /* Taille maximale de l'image */
-    height: auto;      /* Garde l'aspect ratio de l'image */
     } 
+
+.legende {
+    font-size: 11px; /* Texte plus petit */
+    color: gray; /* Couleur discrète */
+    margin-top: 3px; /* Espacement réduit au-dessus de la légende */
+    line-height: 1; /* Espacement réduit entre les lignes */
+}
 
 /* decouverte */
 
